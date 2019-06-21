@@ -1,0 +1,59 @@
+body {
+    background: rgba(184, 177, 177, 0.61);
+}
+
+.container {
+    width: 80%;
+    max-width: 700px;
+    background: white;
+    margin: 150px auto;
+    padding: 20px 20px 50px 20px;
+}
+
+h2 {
+    background: blue;
+    padding: 50px;
+    text-align: center;
+    justify-content: center;
+}
+
+#content {
+    /* border: 2px solid red; */
+    margin: 20px 10px 20px 10px;
+    
+}
+
+#special{
+    /* border: 2px solid green; */
+    margin: 0 0 20px 0;
+    padding: 10px;
+}
+
+.title {
+    margin-bottom: 15px;
+    display: block;
+    box-sizing: border
+}
+
+.box {
+    height: 34px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 6px 12px;
+    border-radius: 4px; 
+}
+
+.btn {
+    padding: 20px;
+    margin: 10px;
+}
+
+#content2 {
+    /* border: 2px solid red; */
+    margin: 20px 10px 20px 10px;
+}
+
+#fooder {
+    text-align: center;
+    
+}

@@ -1,0 +1,10 @@
+2019-06-21: Merging Keiko's html css files. The folloing HTML tags arde changed
+
+
+         ln 11   <script src="nytSearch.js"></script>  this line should be placed after jQuery link
+         ln 22    <input class="box" type="text" id = "searchTerm">
+         ln 38     <button class="btn"  id="go">Search</button>
+         ln 42  <div id="news-area">
+        
+
+            

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>New York Times Search</title>
+    <link rel="stylesheet" href="nytSearch.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+   
+</head>
+
+<body>
+    <div class="container">
+        <div>New York Times Search</div>
+        <div id="content">
+            <div>Search Parameters</div>
+            <form action="">
+                <lable>Search Term:</lable>
+                <input type="text" id = "searchTerm" value="JJJ">
+            </form>
+            <form action="">
+                <lable>Number of Records to Retrieve</lable>
+                <input type="text" placeholder="5">
+            </form>
+            <form action="">
+                <lable>Start Year(Optional):</lable>
+                <input type="text">
+            </form>
+            <form action="">
+                <lable>End Year(Optional):</lable>
+                <input type="text">
+            </form>
+            <button id="go">Search</button>
+            <button>Clear Result</button>
+        </div>
+        <div id="news-area">
+            <form action="">
+                <lable>Top Articles</lable>
+                <input type="text">
+            </form>
+        </div>
+        <hr>
+        <div id="news-area">Made with lots of Love </div>
+    </div>
+
+    <script src="nytSearch.js"></script>
+</body>
+
+</html>
