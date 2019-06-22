@@ -5,6 +5,9 @@
          ln 22    <input class="box" type="text" id = "searchTerm">
          ln 38     <button class="btn"  id="go">Search</button>
          ln 42  <div id="news-area">
-        
+
+ === rename index.html to index-2.html No use
+     nytsearch.html becomes index.html    
+        (missing e in original file anme)    
 
             
